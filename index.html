@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HomeWork6</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+  <header>
+    
+    <img class="phone-icon" src="img/phone.png" title="Телефоны" alt="Телефоны">  
+    <span class="phone-num">(044)123-45-67 (044)567-89-10 </span>
+
+    <form action="/" method="POST" id="logon">
+      <img id="logon-img" src="img/login.png" alt="Логин">  
+      <input class="txt" type="text" name="login" required placeholder="логин">
+      <input class="txt" type="password" name="pswd" required placeholder="пароль">
+      <input class="button" type="submit" name="submit" value="вход">
+      <a class="registration" href=#>| регистрация</a>
+      <a class="forgot-pswd" href=#>забыли пароль?</a>
+    </form>
+
+  <nav>
+    <a id="home" href=#></a>
+    <a id="map" href=#></a>
+    <a id="letter" href=#></a>
+  </nav>
+
+  </header>
+
+
+
+
+  <img id="panel" src="img/panel.png" alt="zazor.com.ua" title="zazor.com.ua">  
+
+
+
+
+  <ul class="menu">
+    <li><a id="item1" href=#>О КОМПАНИИ</a></li>
+    <li><a id="item2" href=#>ОПЛАТА</a></li>
+    <li><a id="item3" href=#>ДОСТАВКА</a></li>
+    <li><a id="item4" href=#>СТАТЬИ</a></li>
+    <li><a id="item5" href=#>КОНТАКТЫ</a></li>
+    <li>
+      <img src="img/basket.png" alt="Ваша корзина" title="Ваша корзина"> 
+      <span> товаров:</span><span class="val">0</span><span> &nbsp; на сумму:</span><span class="val">&nbsp;&nbsp;0,00 грн.</span>
+    </li>
+  </ul>
+
+  
+  <div class="search">
+  
+    <form action="/" method="GET" id="search-avto">
+      <h5>Поиск по автомобилю</h5>
+      <div class="column">
+        <p class="lc-head">Диски:</p>
+        <label> 
+          <span class="word1">Марка</span>
+          <span class="word2">авто</span>
+        </label>
+        <select name="l-marka" id="l-marka"></select>
+        <label> 
+          <span class="word1">Модель</span>
+          <span class="word2">автомобиля</span>
+        </label>
+        <select name="l-model" id="l-model"></select>
+        <label> 
+          <span class="word1">Год выпуска</span>
+          <span class="word2">автомобиля</span>
+        </label>
+        <select class="year" name="l-year" id="l-year"></select>
+        <label> 
+          <span class="word1">Комплектация</span>
+        </label>
+        <select name="l-komlect" id="l-komlect"></select>
+      </div> 
+
+      <div class="column">
+        <p class="rc-head">Шины:</p>
+        <label>
+          <span class="word1">Марка</span>
+          <span class="word2">авто</span>
+        </label>
+        <select name="r-marka" id="r-marka"></select>
+        <label> 
+          <span class="word1">Модель</span>
+          <span class="word2">автомобиля</span>
+        </label>
+        <select name="r-model" id="r-model"></select>
+        <label> 
+          <span class="word1">Год выпуска</span>
+          <span class="word2">автомобиля</span>
+        </label>
+        <select class="year" name="r-year" id="r-year"></select>
+        <label> 
+          <span class="word1">Комплектация</span>
+        </label>
+        <select name="r-komlect" id="r-komlect"></select>
+        <input class="button" type="submit" name="submit" value="поиск">
+      </div> 
+    </form>
+
+    <form action="/" method="GET" id="search-tyre">
+    </form>
+
+    <form action="/" method="GET" id="search-disc">
+    </form>
+
+  </div>
+
+
+  <div class="content">
+
+  <aside>
+
+    <div class="icon"> 
+      <div><img src="img/catalog-icon.png" title="Каталог продукции" alt="Каталог"></div>
+      КАТАЛОГ ПРОДУКЦИИ:
+    </div>
+ 
+    <ul class="catalog">
+      <li>      
+        <a href=#> <div class="marker"></div> ШИНЫ </a>
+        <ul class="SubMenu">
+          <li><a href=#>Наименование 1</a></li>
+          <li><a href=#>Наименование 2</a></li>
+          <li><a href=#>Наименование 3</a></li>
+          <li><a href=#>Наименование 4</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href=#> <div class="marker"></div> ДИСКИ</a>
+        <ul class="SubMenu">
+          <li><a href=#>Наименование 1</a></li>
+          <li><a href=#>Наименование 2</a></li>
+          <li><a href=#>Наименование 3</a></li>
+          <li><a href=#>Наименование 4</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href=#> <div class="marker"></div> БОЛТЫ </a>
+        <ul class="SubMenu">
+          <li><a href=#>Наименование 1</a></li>
+          <li><a href=#>Наименование 2</a></li>
+          <li><a href=#>Наименование 3</a></li>
+          <li><a href=#>Наименование 4</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </aside>
+
+
+
+
+  <div class="tovar">
+
+    <figure>
+      <figcaption>
+        <p class="cat-marka">Goodyear</p>
+        <p class="cat-model">Ultra Grip Extreme</p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>90.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+    
+    <figure>
+      <figcaption>
+        <p class="cat-marka">Nokian</p>
+        <p class="cat-model">Hakkapeliitta R</p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>115.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+    
+    <figure>
+      <figcaption>      
+        <p class="cat-marka">Hankook</p>
+        <p class="cat-model">K 708 155/65 R14 </p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>393.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+
+    <figure>
+      <figcaption>
+        <p class="cat-marka">Goodyear</p>
+        <p class="cat-model">Ultra Grip Extreme</p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>90.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+    
+    <figure>
+      <figcaption>
+        <p class="cat-marka">Nokian</p>
+        <p class="cat-model">Hakkapeliitta R</p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>115.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+    
+    <figure>
+      <figcaption>      
+        <p class="cat-marka">Hankook</p>
+        <p class="cat-model">K 708 155/65 R14 </p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>393.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+
+    <figure>
+      <figcaption>
+        <p class="cat-marka">Goodyear</p>
+        <p class="cat-model">Ultra Grip Extreme</p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>90.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+    
+    <figure>
+      <figcaption>
+        <p class="cat-marka">Nokian</p>
+        <p class="cat-model">Hakkapeliitta R</p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>115.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+    
+    <figure>
+      <figcaption>      
+        <p class="cat-marka">Hankook</p>
+        <p class="cat-model">K 708 155/65 R14 </p>
+      </figcaption>
+      <div><img src="img/tovar.png" alt="Товар"/></div>
+      <span>393.00</span>
+      <span class="curr"> грн.</span>
+    </figure>
+
+  </div>
+
+
+  
+
+  <form action="/" method="GET" id="f-brand">
+
+    <div class="icon"> 
+      <div><img src="img/catalog-icon.png" title="Бренды" alt="Каталог"></div>
+      БРЕНДЫ:
+    </div>
+
+    <div class="chk-head"> 
+	<div class="marker"></div> 
+        ШИНЫ
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="check1">
+      <label for="check1"> Бренд 1 </label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="check2">
+      <label for="check2"> Бренд 2 </label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="check3">
+      <label for="check3"> Бренд 3 </label>
+    </div>
+
+    <div class="chk-head">
+      <div class="marker"></div>
+      ДИСКИ
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="check4">
+      <label for="check4"> Бренд 1 </label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="check5">
+      <label for="check5"> Бренд 2 </label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" id="check6">
+      <label for="check6"> Бренд 3 </label>
+    </div>
+
+    <input type="submit" name="submit" id="submit" value="ВЫБРАТЬ">
+
+  </form>
+  
+  </div>
+
+
+
+
+  <ul class="brand-logo">
+    <li><a class="toyo" href=#></a></li>
+    <li><a class="bridgestone" href=#></a></li>
+    <li><a class="continental" href=#></a></li>
+    <li><a class="bodper" href=#></a></li>
+    <li><a class="avon" href=#></a></li>
+    <li><a class="tire-factory" href=#></a></li>
+    <li><a class="firelli" href=#></a></li>
+    <li><a class="dunlop" href=#></a></li>
+  </ul>
+
+
+
+
+  <footer>
+
+    <ul class="bottomMenu">
+      <li><a href=#>О компании</a></li>
+      <li><a href=#>Доставка</a></li>
+      <li><a href=#>Статьи</a></li>
+      <li><a href=#>Контакты</a></li>
+    </ul>
+
+    <p> Создание сайта &copy; Global Vision </p>
+
+  </footer>
+
+
+</body>
+
+</html>
