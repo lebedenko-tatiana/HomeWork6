@@ -215,7 +215,7 @@ nav a:hover {
   display: block;
   width: 904px;
   height: 133px;
-  margin: 11px auto 0;
+  margin: 10px auto 0;
 }
 
 #search-avto {
@@ -227,6 +227,7 @@ nav a:hover {
   border-radius: 16px;
   float: left;
   position: relative;
+  margin-top: 1px;
 }
 
 #search-avto h5 {
@@ -262,7 +263,7 @@ nav a:hover {
   font-family: Arial;
   font-weight: bold;
   position: absolute;
-  top: 5px;
+  top: 3px;
   right: 20px;  
   letter-spacing: 1px;
 }
@@ -347,7 +348,7 @@ nav a:hover {
   box-shadow: 5px 5px 5px 0 #686868;  
   border: 1px solid #9c9c9d;
   border-radius: 16px;
-  margin-left: 11px;
+  margin-left: 9px;
   float: left;
 }
 
@@ -456,38 +457,46 @@ figure {
   width: 138px; 
   height: 175px;
   float: left; 
-  margin: 1px 7px 28px 23px;
+  margin: 2px 7px 25px 23px;
   text-align: center; 
+}
+
+.r3{
+  margin: 4px 6px 31px 23px;
 }
 
 figure .cat-marka {
   color: #206988;
   font-size: 15px;
-  line-height: 16px;
+  line-height: 15px;
+}
+
+.r3 .cat-marka {
+  line-height: 15px;
 }
 
 figure .cat-model {
   color: #1f2528;
   font-size: 13px;
-  line-height: 14px;
+  line-height: 13px;
 }
+
 
 figure span {
   color: #114165;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   font-family: Arial;
   font-style: italic;
   font-weight: bold;
 }
 
 figure .curr {
-  color: #114165;
   font-size: 12px;
-  line-height: 24px;
-  font-family: Arial;
-  font-style: italic;
-  font-weight: bold;
+}
+
+.img2 span {
+  line-height: 28px;
 }
 
 figure div {
@@ -525,7 +534,7 @@ figure div img {
 
 #f-brand .icon {
   color: #114165;
-  font-size: 13px;
+  font-size: 14px;
   width: 178px;
   height: 25px;
   box-shadow: 3px 3px 3px 0 #969696;  
@@ -537,6 +546,8 @@ figure div img {
   text-align: left;
   margin-top: 2px;
   margin-bottom: 13px;
+  margin-left: 2px;
+  letter-spacing: 0.03em;
 }
 
 .chk-head {
@@ -547,7 +558,7 @@ figure div img {
   line-height: 27px;
   margin-top: 8px;
   margin-left: 15px;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
   padding-left: 4px;
   vertical-align: middle;
   color: #114165;
@@ -559,7 +570,7 @@ figure div img {
   display: inline-block;
   cursor: pointer;
   position: relative;
-  padding-left: 45px;
+  padding-left: 50px;
   margin-right: 15px;
   font-family: "Lucida Sans Unicode";
   color: #465961;
@@ -578,8 +589,8 @@ figure div img {
   height: 8px;
   margin-right: 10px;
   position: absolute;
-  left: 25px;
-  bottom: 7px;
+  left: 26px;
+  bottom: 8px;
   box-shadow: inset 1px 1px 1px 0 rgba(0,0,0,0.75);
   border: 1px solid #114165;
 }
@@ -594,7 +605,7 @@ input:checked + label:before {
   line-height: 8px;
 }
 
-#f-brand #submit {
+#f-brand #sbmit {
   width: 82px;
   height: 26px;
   font-size: 11px;
@@ -605,14 +616,15 @@ input:checked + label:before {
   background: linear-gradient(#206988, #0c3256 75%);
   box-shadow: 3px 3px 3px 0 #bcbcbc;  
   margin-left: 24px;
-  margin-top: 16px; 
+  margin-top: 14px; 
   cursor: pointer;
+  letter-spacing: 0.1em;
 }
 
 .brand-logo {
   position: relative;
   display: block;
-  margin: 41px auto 0;
+  margin: 38px auto 0;
   height: 29px;
   width: 678px; 
   padding: 0;
@@ -699,7 +711,7 @@ aside {
 .content {
   overflow: hidden;
   width: 912px;
-  margin: 16px auto 0;
+  margin: 17px auto 0;
 }
 
 footer {
@@ -715,11 +727,12 @@ footer {
 footer p {
   color: #7f4740;
   font-size: 10px; 
-  margin: 16px auto 0;
+  margin: 15px auto 0;
+  letter-spacing: 0.02em;
 }
 
 .bottomMenu {
-  margin: 6px auto;
+  margin: 8px auto;
 }
 
 .bottomMenu li {
